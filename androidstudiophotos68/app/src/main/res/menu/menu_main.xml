@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bhavin.anroidstudiophotos68.MainActivity">
+    <item
+        android:id="@+id/deleteAlbum"
+        android:orderInCategory="100"
+        android:title="Delete Album" />
+    <item
+        android:id="@+id/search"
+        android:orderInCategory="101"
+        android:title="Search Photos" />
+    <item
+        android:id="@+id/addAlbum"
+        android:title="Create Album" />
+    <item
+        android:id="@+id/renameAlbum"
+        android:title="Rename Album" />
+</menu>

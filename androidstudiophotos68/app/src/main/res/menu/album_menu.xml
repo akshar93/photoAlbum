@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    tools:context="com.example.bhavin.anroidstudiophotos68.openAlbum">
+    <item
+        android:id="@+id/move_photo"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Move Photo" />
+
+    <item
+        android:id="@+id/delete_photo"
+        app:showAsAction="never"
+        android:orderInCategory="100"
+        android:title="Delete Photo" />
+</menu>
